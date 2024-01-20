@@ -70,6 +70,6 @@ extension CoinRowView {
             Text(coin.priceChangePercentage24H?.asPercentString() ?? "")
                 .foregroundColor(coin.priceChangePercentage24H ?? 0 >= 0 ? Color.theme.green : Color.theme.red)
         }
-        .frame(width: UIScreen.main.bounds.width / 3, alignment: .trailing)
+        .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
     }
 }
