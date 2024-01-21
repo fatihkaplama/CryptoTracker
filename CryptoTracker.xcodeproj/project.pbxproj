@@ -25,6 +25,7 @@
 		3DB33DA82B5DA76B0035CBFA /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB33DA72B5DA76B0035CBFA /* CoinImageView.swift */; };
 		3DB33DAA2B5DA8910035CBFA /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB33DA92B5DA8910035CBFA /* CoinImageService.swift */; };
 		3DB33DAC2B5DAAB50035CBFA /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB33DAB2B5DAAB50035CBFA /* CoinImageViewModel.swift */; };
+		3DB33DAE2B5DB6220035CBFA /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB33DAD2B5DB6220035CBFA /* LocalFileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		3DB33DA72B5DA76B0035CBFA /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		3DB33DA92B5DA8910035CBFA /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		3DB33DAB2B5DAAB50035CBFA /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		3DB33DAD2B5DB6220035CBFA /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				3DB33DA42B5DA14E0035CBFA /* NetworkingManager.swift */,
+				3DB33DAD2B5DB6220035CBFA /* LocalFileManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				3DB33D902B55DC320035CBFA /* CoinRowView.swift in Sources */,
 				3DB33D9F2B5C6A870035CBFA /* HomeViewModel.swift in Sources */,
 				3DB33D702B55C8010035CBFA /* ContentView.swift in Sources */,
+				3DB33DAE2B5DB6220035CBFA /* LocalFileManager.swift in Sources */,
 				3DB33D6E2B55C8010035CBFA /* CryptoTrackerApp.swift in Sources */,
 				3DB33DA82B5DA76B0035CBFA /* CoinImageView.swift in Sources */,
 				3DB33D882B55CC2E0035CBFA /* CircleButtonView.swift in Sources */,
